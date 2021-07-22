@@ -116,7 +116,6 @@ export class Slide {
     }
 
     onResizing(){
-        console.log('teste');
         setTimeout(()=>{
             this.slidesConfig();
             this.changeSlide(this.index.active);
